@@ -1,0 +1,136 @@
+header{
+    background-image: url(../image/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.layer{
+    background-color: rgba(214, 46, 51, 0.6);
+}
+aside{
+    width: 40vh;
+    background-color: #414658;
+    font-size: 1.7rem;
+    z-index: 999;
+    top: 0px;
+    bottom: 0px;
+    right: 102%;
+}
+aside i{
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+aside i:hover{
+    color: #704458 !important;
+}
+.my-links a{
+ transition: 0.2 all;
+}
+.my-links:hover a{
+    color: #704458 !important;
+}
+.mytoggeler{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.Myline{
+    width: 100%;
+    height:3px ;
+    border-radius: 10%;
+    background-color: white;
+    margin-bottom: 5px;
+}
+.mytoggeler::after{
+    content: "Open";
+    color: white;
+    position: absolute;
+    font-size: 2rem;
+    top: 20%;
+    left: 120%;
+    transform: translateY(-50%);
+}
+.homeContent{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+h1{
+    font-size: 4rem;
+}
+#CountDown{
+    background-image: url(../image/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Duration{
+    background-color: rgba(214, 46, 51, 0.6);
+
+}
+.dates{
+    width: 100%;
+    height: 200px;
+    border: 1px white solid;
+}
+.title{
+    background-color: #E68285;
+    color: #FFFFEB;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.parag{
+    background-color: #CCCCCC;
+    margin-bottom: 0px;
+    display: none;
+}
+.ContactTitle h2{
+    font-size: 2.7rem;
+}
+.normalIcons li i{
+    color: #777777 !important;
+}
+.normalIcons li:nth-child(2){
+    color: #D62E39;
+}
+.social-links{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #777777;
+    background-color:transparent;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.social-links a{
+    color: #777777;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.social-links:hover{
+    background-color: #D62E33;
+}
+.social-links:hover a{
+    color:white;
+    
+}
+#text{
+    color: #D62E33;
+}
+form a:focus{
+    outline: 1px rgba(0, 0, 0, 0.414) solid;
+}
+
+form input::placeholder,textarea::placeholder{
+    font-size: 1.3rem;
+    color: #848080af !important;
+}
