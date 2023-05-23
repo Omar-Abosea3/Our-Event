@@ -31,7 +31,7 @@ for (let i = 0; i < titles.length; i++) {
 
 function countDown(){
     let now = new Date();
-    let myEvent = new Date('8-Apr-2023');
+    let myEvent = new Date('22-june-2023');
     let counter=myEvent.getTime()-now.getTime();
     let s = Math.floor(counter/1000);
     let m = Math.floor(s/60);
